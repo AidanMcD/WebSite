@@ -1,0 +1,65 @@
+
+:root{
+--h2color: #E85A4F;
+--darkTxt: #3e3e3e;
+
+}
+
+body{
+  background-color:#EAE7DC;
+}
+
+h2{
+  color: var(--h2color);
+}
+
+.container {
+  color:#8E8D8A;
+  display: grid;
+  grid-template-columns: 10em 50em 0em;
+  grid-template-rows: 4em 1fr 1.8fr 0.2fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: stretch;
+  align-items: stretch;
+  grid-template-areas:
+    "header header header"
+    "side content ."
+    "side content ."
+    ". footer .";
+}
+
+.header { grid-area: header; text-align: center; }
+
+.side { 
+  grid-area: side;
+  color:var(--darkTxt); 
+}
+
+.content { grid-area: content;
+            height: 100%;
+}
+
+.footer { 
+  grid-area: footer; 
+
+  justify-self: center; 
+  align-self: center;
+  display: grid;
+  grid-template-areas:
+  ". . ."
+  "git facebook linkedin"
+  ". . .";
+}
+.git{
+  grid-area: git;
+}
+.facebook
+{
+  grid-area: facebook;
+}
+.linkedin
+{
+  grid-area: linkedin;
+}
