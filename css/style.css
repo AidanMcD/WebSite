@@ -1,5 +1,5 @@
-
 :root{
+
 --h2color: #E85A4F;
 --darkTxt: #3e3e3e;
 
@@ -49,8 +49,9 @@ h1{
   
 }
 
-.content { grid-area: content;
-            height: 100%;
+.content { 
+  grid-area: content;
+  height: 100%;
 }
 
 .footer { 
