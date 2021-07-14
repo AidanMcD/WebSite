@@ -50,6 +50,7 @@ h1{
 }
 
 .content { 
+  padding: 100px;
   grid-area: content;
   height: 100%;
 }
