@@ -79,3 +79,13 @@ h1{
   font-size: 20pt;
   padding:60px;
 }
+
+.tab {
+  display: inline-block;
+  margin-left: 40px;
+}
+.tabtab {
+  display: inline-block;
+  margin-left: 80px;
+}
+
