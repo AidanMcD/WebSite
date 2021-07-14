@@ -1,0 +1,79 @@
+
+:root{
+--h2color: #E85A4F;
+--darkTxt: #3e3e3e;
+
+}
+
+html, body{
+
+  font-family: "Lucida Sans", sans-serif;
+  background-color:#EAE7DC;
+  height: 100%;
+  margin: 0;
+}
+
+h1{
+  color: var(--h2color);
+}
+
+.container {
+  color:#8E8D8A;
+  display: grid;
+  grid-column: auto;
+  grid-template-columns: 20em;
+  grid-template-rows: 4em 1fr 2em;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: stretch;
+  align-items: stretch;
+  grid-template-areas:
+    "header header"
+    "side content"
+    "side content"
+    "footer footer";
+}
+
+.header { 
+  grid-area: header; 
+  text-align: center; 
+  background-color: #3e3e3e;
+  display: inline-flex;
+
+}
+
+.side { 
+  grid-area: side;
+  color:var(--darkTxt); 
+  
+}
+
+.content { grid-area: content;
+            height: 100%;
+}
+
+.footer { 
+  grid-area: footer; 
+
+  justify-self: center; 
+  align-self: center;
+  display: grid;
+  grid-template-areas:
+  ". . "
+  "git linkedin"
+  ". . ";
+}
+.git{
+  grid-area: git;
+}
+.linkedin
+{
+  grid-area: linkedin;
+}
+
+.subheader2{
+
+  font-size: 20pt;
+  padding:60px;
+}
