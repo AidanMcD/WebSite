@@ -79,6 +79,13 @@ h1{
   font-size: 20pt;
   padding:100px;
 }
+.subheader3{
+
+  font-size: 15pt;
+  color: var(--darkTxt);
+}
+
+
 
 .tab {
   display: inline-block;
