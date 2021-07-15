@@ -1,8 +1,8 @@
 :root{
 
 --h2color: #E85A4F;
---darkTxt: #3e3e3e;
---lightTxt:#8E8D8A;
+--dark: #3e3e3e;
+--light:#8E8D8A;
 
 }
 
@@ -21,6 +21,7 @@ h1{
 .container {
   color:#8E8D8A;
   display: grid;
+  height: 100vh;
   grid-column: auto;
   grid-template-columns: 20em;
   grid-template-rows: 4em 1fr 2em;
@@ -39,21 +40,22 @@ h1{
 .header { 
   grid-area: header; 
   text-align: center; 
-  background-color: #3e3e3e;
+  background-color:var(--dark);
   display: inline-flex;
-  
+
 }
 
 .side { 
+  height: 100vh;
   grid-area: side;
-  background-color: #3e3e3e;
-  color: var(--lightTxt);
+  background-color:var(--dark);
+  color: var(--light);
 }
 
 .content { 
   padding: 100px;
   grid-area: content;
-  height: 100%;
+  
 }
 
 .footer { 
@@ -93,13 +95,4 @@ h1{
   font-weight: bold;
 }
 
-
-.tab {
-  display: inline-block;
-  margin-left: 40px;
-}
-.tabtab {
-  display: inline-block;
-  margin-left: 80px;
-}
 
