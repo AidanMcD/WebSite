@@ -8,7 +8,7 @@
 
 html, body{
 
-  font-family: "Lucida Sans", sans-serif;
+  font-family: "Lucida", serif;
   background-color:#EAE7DC;
   height: 100%;
   margin: 0;
@@ -21,7 +21,6 @@ h1{
 .container {
   color:#8E8D8A;
   display: grid;
-  height: 100vh;
   grid-column: auto;
   grid-template-columns: 20em;
   grid-template-rows: 4em 1fr 2em;
@@ -46,7 +45,6 @@ h1{
 }
 
 .side { 
-  height: 100vh;
   grid-area: side;
   background-color:var(--dark);
   color: var(--light);
@@ -80,13 +78,18 @@ h1{
 .sideheader{
 
   font-size: 25pt;
-  padding:100px;
+  padding-left:100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 50px;
   font-weight: bold;
 }
 
 .skillssection
 {
   padding:100px;
+  padding-top: 50px;
+
 }
 
 .skillsheader{
