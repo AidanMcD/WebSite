@@ -76,13 +76,14 @@ h1{
 
 .subheader2{
 
-  font-size: 20pt;
+  font-size: 25pt;
   padding:100px;
 }
 .subheader3{
 
-  font-size: 15pt;
+  font-size: 20pt;
   color: var(--darkTxt);
+  font-weight: bold;
 }
 
 
