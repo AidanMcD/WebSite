@@ -2,6 +2,7 @@
 
 --h2color: #E85A4F;
 --darkTxt: #3e3e3e;
+--lightTxt:#8E8D8A;
 
 }
 
@@ -40,13 +41,13 @@ h1{
   text-align: center; 
   background-color: #3e3e3e;
   display: inline-flex;
-
+  
 }
 
 .side { 
   grid-area: side;
-  color:var(--darkTxt); 
-  
+  background-color: #3e3e3e;
+  color: var(--lightTxt);
 }
 
 .content { 
@@ -74,11 +75,18 @@ h1{
   grid-area: linkedin;
 }
 
-.subheader2{
+.sideheader{
 
   font-size: 25pt;
   padding:100px;
+  font-weight: bold;
 }
+
+.skillssection
+{
+
+}
+
 .subheader3{
 
   font-size: 20pt;
