@@ -84,17 +84,14 @@ h1{
 
 .skillssection
 {
-
+  padding:100px;
 }
 
-.subheader3{
+.skillsheader{
 
   font-size: 20pt;
-  color: var(--darkTxt);
   font-weight: bold;
 }
-
-
 
 .tab {
   display: inline-block;
