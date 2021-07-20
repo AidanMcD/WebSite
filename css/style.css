@@ -8,7 +8,7 @@
 }
 
 html, body{
-
+  font-size: 16px;
   font-family: "Lucida", serif;
   background-color:#EAE7DC;
   height: 100%;
@@ -99,4 +99,11 @@ h1{
   font-weight: bold;
 }
 
+.education .header
+{
+  font-weight:bold;
+  font-size: 15pt;
+
+
+}
 
