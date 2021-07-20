@@ -9,7 +9,7 @@
 
 html, body{
   font-size: 16px;
-  font-family: "Lucida", serif;
+  font-family: "Helvetica", serif;
   background-color:#EAE7DC;
   height: 100%;
   margin: 0;
@@ -78,7 +78,6 @@ h1{
 
 .sideheader{
 
-  font-size: 20pt;
   padding-left:100px;
   padding-right: 100px;
   padding-top: 100px;
@@ -94,16 +93,11 @@ h1{
 }
 
 .skillsheader{
-
-  font-size: 15pt;
   font-weight: bold;
 }
 
 .sectionheader
 {
   font-weight:bold;
-  font-size: 15pt;
-
-
 }
 
