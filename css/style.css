@@ -3,6 +3,7 @@
 --h2color: #E85A4F;
 --dark: #3e3e3e;
 --light:#8E8D8A;
+--vlight:#eae7dc;
 
 }
 
@@ -47,13 +48,13 @@ h1{
 .side { 
   grid-area: side;
   background-color:var(--dark);
-  color: var(--light);
+  color: var(--vlight);
 }
 
 .content { 
   padding: 100px;
   grid-area: content;
-  
+  color: var(--vlight);
 }
 
 .footer { 
@@ -88,13 +89,13 @@ h1{
 .skillssection
 {
   padding:100px;
-  padding-top: 50px;
+  padding-top: 25px;
 
 }
 
 .skillsheader{
 
-  font-size: 10pt;
+  font-size: 15pt;
   font-weight: bold;
 }
 
