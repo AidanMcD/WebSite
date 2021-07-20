@@ -54,7 +54,7 @@ h1{
 .content { 
   padding: 100px;
   grid-area: content;
-  color: var(--vlight);
+  color: var(--dark);
 }
 
 .footer { 
