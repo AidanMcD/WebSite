@@ -4,15 +4,17 @@
 --dark: #3e3e3e;
 --light:#8E8D8A;
 --vlight:#eae7dc;
+--sidePadding:25px;
 
 }
 
 html, body{
   font-size: 16px;
-  font-family: "Helvetica", serif;
+  font-family: 'Poppins', sans-serif;
   background-color:#EAE7DC;
   height: 100%;
   margin: 0;
+  letter-spacing: 2px;
 }
 
 h1{
@@ -27,9 +29,6 @@ h1{
   grid-template-rows: 4em 1fr 2em;
   gap: 10px 10px;
   grid-auto-flow: row;
-  justify-content: center;
-  justify-items: stretch;
-  align-items: stretch;
   grid-template-areas:
     "header header"
     "side content"
@@ -42,6 +41,8 @@ h1{
   text-align: center; 
   background-color:var(--dark);
   display: inline-flex;
+
+  
 
 }
 
@@ -78,19 +79,17 @@ h1{
 
 .sideheader{
 
-  padding-left:100px;
-  padding-right: 100px;
+  padding-left:var(--sidePadding);
+  padding-right: var(--sidePadding);
   padding-top: 100px;
-  padding-bottom: 25px;
+  padding-bottom: var(--sidePadding);
   font-weight: bold;
 }
 
 .skillssection
 {
-  padding:100px;
-  padding-top: 25px;
+  padding:var(--sidePadding);
 
-}
 
 .skillsheader{
   font-weight: bold;
