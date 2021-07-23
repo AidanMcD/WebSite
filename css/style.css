@@ -25,6 +25,7 @@ h1{
   color:#8E8D8A;
   display: grid;
   grid-column: auto;
+  grid-template-columns: 20em;
   grid-template-rows: 4em 1fr 2em;
   grid-auto-flow: row;
   grid-template-areas:
