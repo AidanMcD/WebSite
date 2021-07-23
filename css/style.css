@@ -1,7 +1,7 @@
 :root{
 
 --h2color: #E85A4F;
---dark: #050808;
+--dark: #282a36;
 --light:#8E8D8A;
 --vlight:#eae7dc;
 --sidePadding:25px;
@@ -37,9 +37,8 @@ h1{
 .header { 
   grid-area: header; 
   text-align: center; 
-  background-color:var(--dark);
   display: inline-flex;
-
+  background-image: url('img/ava7patterns_patern_1411.png');
   
 
 }
@@ -104,5 +103,5 @@ h1{
 
 .white{
 
-  color: rgb(255, 255, 255);
+  color:#ffffff
 }
